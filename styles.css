@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+header {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #3AAFA9;
+    background: linear-gradient(90deg, #2B7A78, #17252A);
+    box-shadow: 0px 0px 20px #2B7A78;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 4px solid #2B7A78;
+}
+
+.header-container h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    color: #FEFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #3AAFA9, 0 0 20px #2B7A78, 0 0 30px #3AAFA9;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #2B7A78, 0 0 20px #3AAFA9, 0 0 30px #3AAFA9;
+    }
+    100% {
+        text-shadow: 0 0 20px #3AAFA9, 0 0 40px #2B7A78, 0 0 60px #2B7A78;
+    }
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    opacity: 0.1;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-container p {
+    font-size: 16px;
+    color: #DEF2F1;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#description {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #17252A;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(58, 175, 169, 0.2);
+}
+
+#description h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #3AAFA9;
+    margin-bottom: 10px;
+}
+
+#description p {
+    font-size: 16px;
+    color: #DEF2F1;
+    line-height: 1.5;
+}
+
+.file-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.custom-file-upload {
+    background-color: #3AAFA9;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #2B7A78;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.custom-file-upload:hover {
+    background-color: #2B7A78;
+    border-color: #3AAFA9;
+}
+
+#file-name {
+    font-size: 14px;
+    color: #DEF2F1;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #17252A;
+    padding: 20px 0;
+    text-align: center;
+    color: #fcfcfc;
+    margin-top: 20px;
+    border-top: 2px solid #2B7A78;
+}
+
+footer a {
+    color: #3AAFA9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#lastUpdate {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #bbb;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DEF2F1;
+    color: #17252A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #2B7A78;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(58, 175, 169, 0.3);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+input, button {
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #3AAFA9;
+    border-radius: 5px;
+    background-color: #17252A;
+    color: white;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #3AAFA9;
+    box-shadow: 0 0 5px rgba(58, 175, 169, 0.5);
+}
+
+button {
+    background-color: #3AAFA9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #202e2e;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.day-section {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2B7A78;
+    border-left: 5px solid #3AAFA9;
+    box-shadow: 0 0 5px rgba(58, 175, 169, 0.2);
+    border-radius: 5px;
+}
+
+.day-section h3 {
+    font-family: 'Press Start 2P', cursive;
+    background: #82d4d4;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.day-section ul {
+    list-style: none;
+    padding: 0;
+    background-color: #3AAFA9;
+}
+
+.day-section li {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+    color: #DEF2F1;
+}
+
+#downloadPdfBtn {
+    background-color: #3AAFA9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 12px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+}
+
+#downloadPdfBtn:hover {
+    background-color: #151c1d;
+}

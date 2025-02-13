@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuces Timetable Planner</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/Logo.svg" type="image/svg"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>timetable Planner</h1>
+      </div>
+    </header>
+
+    <div id="description">
+      <h2>How to Use</h2>
+      <p>
+        A timetable is <strong>preloaded</strong>, but you can upload a new one
+        if it is updated.
+      </p>
+      <p>
+        TimeTable Last <strong>Updated</strong> on:<strong>
+          10-Feb-2025</strong>
+      </p>
+      <p>Upload a <strong>.xlsx</strong> file if needed.</p>
+      <p>Enter your class name (e.g., <strong>BCS-5A</strong>) to search.</p>
+      <p>
+        For multiple sections, separate with a comma (e.g.,
+        <strong>BCY-5A, BCY-5B</strong>).
+      </p>
+      <p>Download results as a <strong>PDF</strong> if needed.</p>
+    </div>
+
+    <div class="container">
+      <input type="file" id="fileInput" accept=".xlsx, .csv" />
+      <input type="text" id="searchInput" placeholder="Enter Class Name..." />
+      <button id="searchBtn">Search</button>
+      <div id="results"></div>
+      <button id="downloadPdfBtn" style="display: none">Download PDF</button>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <p>
+          If the Timetable has been updated, Please Update me Via </p>
+          <a href="mailto:CodeWeaveCo@gmail.com">CodeWeaveCo@gmail.com</a>
+
+        <p>
+          About the Developer:
+          <a href="https://github.com/CodeWeaveCo" target="_blank"
+            >View on GitHub</a
+          >
+        </p>
+        <p>&copy; 2025 CodeWeave</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
