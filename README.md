@@ -26,6 +26,6 @@ If you find any issues or want to improve the project, feel free to submit a pul
 
 ## Contact 📧  
 For any issues or timetable updates, please email **CodeWeaveCo@gmail.com**  
-GitHub Profile: [CodeWeaveCo](https://github.com/CodeWeaveCo)  
+Co-Owner of GitHub Profile: [CodeWeaveCo](https://github.com/CodeWeaveCo)  
 
 © 2025 CodeWeave
