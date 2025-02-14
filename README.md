@@ -25,7 +25,7 @@ A web-based **timetable search tool** that allows users to find class schedules 
 If you find any issues or want to improve the project, feel free to submit a pull request!  
 
 ## Contact 📧  
-For any issues or timetable updates, please email **CodeWeaveCo@gmail.com**  
+For any issues or timetable updates, please email **CodeWeave.inc@gmail.com**  
 Co-Owner of GitHub Profile: [CodeWeaveCo](https://github.com/CodeWeaveCo)  
 
 © 2025 CodeWeave
