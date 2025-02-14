@@ -8,14 +8,14 @@
         try {
             const response = await fetch("./Timetable.xlsx");
             if (!response.ok) {
-                alert("Failed to load timetable data. Retry Loading if the issue persists Please mail codeweaveco@gmail.com ");
+                alert("Failed to load timetable data. Retry Loading if the issue persists Please mail codeweave.inc@gmail.com ");
                 return;
             }
 
             const arrayBuffer = await response.arrayBuffer();
             processUploadedFile(arrayBuffer);
         } catch (error) {
-            alert("Failed to load timetable data. Retry Loading if the issue persists Please mail codeweaveco@gmail.com ");
+            alert("Failed to load timetable data. Retry Loading if the issue persists Please mail codeweave.inc@gmail.com ");
         }
     }
 
